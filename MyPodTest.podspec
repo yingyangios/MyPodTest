@@ -24,12 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/赵炎/MyPodTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '赵炎' => 'zy177735@alibaba-inc.com' }
-  s.source           = { :git => 'https://github.com/赵炎/MyPodTest.git', :tag => s.version.to_s }
+  s.author           = { 'yanzhao' => '835616272@qq.com' }
+  s.source           = { :git => 'git@github.com:yingyangios/MyPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
+  s.vendored_frameworks = 'MyPodTest.framework'
   s.source_files = 'MyPodTest/Classes/**/*'
   
   # s.resource_bundles = {

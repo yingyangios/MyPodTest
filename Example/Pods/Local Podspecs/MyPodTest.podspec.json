@@ -1,0 +1,23 @@
+{
+  "name": "MyPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of MyPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/赵炎/MyPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yanzhao": "835616272@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:yingyangios/MyPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": "MyPodTest.framework",
+  "source_files": "MyPodTest/Classes/**/*"
+}

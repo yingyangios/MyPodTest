@@ -8,5 +8,7 @@
 #import "MyTest.h"
 
 @implementation MyTest
-
+- (void)test {
+    NSLog(@"test");
+}
 @end

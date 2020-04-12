@@ -7,6 +7,7 @@
 //
 
 #import "MCViewController.h"
+#import <MyPodTest/MyTest.h>
 
 @interface MCViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    MyTest *t = [[MyTest alloc] init];
+    [t test];
 }
 
 - (void)didReceiveMemoryWarning
